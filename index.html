@@ -69,16 +69,17 @@
 					<!-- Nav Search START -->
 					<div class="nav mt-3 mt-lg-0 flex-nowrap align-items-center px-4 px-lg-0">
 						<div class="nav-item w-100">
-							<form class="rounded position-relative">
-								<input class="form-control ps-5 bg-light" type="search" placeholder="Search..."
-									aria-label="Search">
-								<button
-									class="btn bg-transparent px-2 py-0 position-absolute top-50 start-0 translate-middle-y"
-									type="submit"><i class="bi bi-search fs-5"> </i></button>
-							</form>
+
+							<a type="button" href="#!" class="py-2 px-2 bg-primary bg-opacity-10 rounded">
+								Sound active | <i class="neu-volume-max"></i>
+							</a>
+
+							<a type="button" href="#!" class="py-2 px-2 bg-secondary bg-opacity-10 text-secondary rounded">
+								Sound muted | <i class="neu-volume-off"></i>
+							</a>
+
 						</div>
 					</div>
-					<!-- Nav Search END -->
 
 					<ul class="navbar-nav navbar-nav-scroll ms-auto">
 
@@ -469,38 +470,23 @@
 
 					<!-- TODO -->
 					<h6 class="h4 mt-3 mb-0">
-						Todo
+						Requires your attention
 					</h6>
 
 					<div class="card rounded-3 mb-3">
 
 						<div class="card-body">
 					
-							<ul class="list-group rounded-0">
+							<ul class="list-unstyled mb-0">
 
-								<li class="list-group-item border-0 d-flex align-items-center ps-0">
-									<input class="form-check-input me-3" type="checkbox" value="" aria-label="..." checked />
-									<s class="text-muted">Revamping the Task Management Platform</s>
-								</li>
-								
-								<li class="list-group-item border-0 d-flex align-items-center ps-0">
-									<input class="form-check-input me-3" type="checkbox" value="" aria-label="..."/>
-									Refreshing LinkDB's Landing Page
+								<li class="text-dark border border-muted py-2 ps-2 rounded mb-2">
+									<svg width="16" height="auto" viewBox="0 0 24 24"><path d="m15.6968,12.4905l-2.8295,1.4148c-.8491.4245-1.5375,1.113-1.962,1.962l-1.4148,2.8295c-.2021.4042-.7789.4042-.981,0l-1.4148-2.8295c-.4245-.8491-1.113-1.5375-1.962-1.962l-2.8295-1.4148c-.4042-.2021-.4042-.7789,0-.981l2.8295-1.4148c.8491-.4246,1.5375-1.113,1.962-1.9621l1.4148-2.8295c.2021-.4042.7789-.4042.981,0l1.4148,2.8295c.4245.8491,1.113,1.5375,1.962,1.9621l2.8295,1.4148c.4042.2021.4042.7789,0,.981Zm6.1732,6.2993l-1.2127-.6063c-.3639-.182-.6589-.477-.8409-.8409l-.6063-1.2126c-.0866-.1732-.3338-.1732-.4204,0l-.6063,1.2126c-.1819.3639-.477.6589-.8409.8409l-1.2127.6063c-.1732.0866-.1732.3338,0,.4204l1.2127.6063c.3639.1819.6589.477.8409.8409l.6063,1.2126c.0866.1732.3338.1732.4204,0l.6063-1.2126c.1819-.3639.477-.6589.8409-.8409l1.2127-.6063c.1732-.0866.1732-.3338,0-.4204Zm0-14l-1.2127-.6063c-.3639-.182-.6589-.477-.8409-.8409l-.6063-1.2126c-.0866-.1732-.3338-.1732-.4204,0l-.6063,1.2126c-.1819.3639-.477.6589-.8409.8409l-1.2127.6063c-.1732.0866-.1732.3338,0,.4204l1.2127.6063c.3639.1819.6589.477.8409.8409l.6063,1.2126c.0866.1732.3338.1732.4204,0l.6063-1.2126c.1819-.3639.477-.6589.8409-.8409l1.2127-.6063c.1732-.0866.1732-.3338,0-.4204Z"/></svg>
+									Write a daily report
 								</li>
 
-								<li class="list-group-item border-0 d-flex align-items-center ps-0">
-									<input class="form-check-input me-3" type="checkbox" value="" aria-label="..." />
-									Create a new Person API Landing Page
-								</li>
-
-								<li class="list-group-item border-0 d-flex align-items-center ps-0">
-									<input class="form-check-input me-3" type="checkbox" value="" aria-label="..." />
-									Update the structure of the top navigation bar
-								</li>
-
-								<li class="list-group-item border-0 d-flex align-items-center ps-0">
-									<input class="form-check-input me-3" type="checkbox" value="" aria-label="..." />
-									Design 2 ads that we can use to promote Sapiengraph inline in existing blog posts
+								<li class="text-dark border border-muted py-2 ps-2 rounded">
+									<svg width="16" height="auto" viewBox="0 0 24 24"><path d="m15.6968,12.4905l-2.8295,1.4148c-.8491.4245-1.5375,1.113-1.962,1.962l-1.4148,2.8295c-.2021.4042-.7789.4042-.981,0l-1.4148-2.8295c-.4245-.8491-1.113-1.5375-1.962-1.962l-2.8295-1.4148c-.4042-.2021-.4042-.7789,0-.981l2.8295-1.4148c.8491-.4246,1.5375-1.113,1.962-1.9621l1.4148-2.8295c.2021-.4042.7789-.4042.981,0l1.4148,2.8295c.4245.8491,1.113,1.5375,1.962,1.9621l2.8295,1.4148c.4042.2021.4042.7789,0,.981Zm6.1732,6.2993l-1.2127-.6063c-.3639-.182-.6589-.477-.8409-.8409l-.6063-1.2126c-.0866-.1732-.3338-.1732-.4204,0l-.6063,1.2126c-.1819.3639-.477.6589-.8409.8409l-1.2127.6063c-.1732.0866-.1732.3338,0,.4204l1.2127.6063c.3639.1819.6589.477.8409.8409l.6063,1.2126c.0866.1732.3338.1732.4204,0l.6063-1.2126c.1819-.3639.477-.6589.8409-.8409l1.2127-.6063c.1732-.0866.1732-.3338,0-.4204Zm0-14l-1.2127-.6063c-.3639-.182-.6589-.477-.8409-.8409l-.6063-1.2126c-.0866-.1732-.3338-.1732-.4204,0l-.6063,1.2126c-.1819.3639-.477.6589-.8409.8409l-1.2127.6063c-.1732.0866-.1732.3338,0,.4204l1.2127.6063c.3639.1819.6589.477.8409.8409l.6063,1.2126c.0866.1732.3338.1732.4204,0l.6063-1.2126c.1819-.3639.477-.6589.8409-.8409l1.2127-.6063c.1732-.0866.1732-.3338,0-.4204Z"/></svg>
+									Respond to cards with <code class="py-1 px-2 bg-danger bg-opacity-10 rounded">awaiting-review</code> label
 								</li>
 
 							</ul>
@@ -510,11 +496,11 @@
 					</div>
 
 					<h6 class="h4 mb-0">
-						News
+						Activity
 					</h6>
 
 					<!-- Comment card -->
-					<div class="card">
+					<div class="card rounded-3">
 
 						<div class="card-header border-0 pb-0">
 
@@ -555,7 +541,7 @@
 								<span class="text-dark fw-bold">nubela</span> commented <span class="">2 hours ago.</span>
 							</p>
 
-							<div class="card mb-2">
+							<div class="card mb-0">
 								<div class="card-body">
 									<p class="mb-0">
 										Moving to done.
@@ -563,18 +549,12 @@
 								</div>
 							</div>
 
-							<div class="text-end">
-								<a class="fw-bold text-primary" href="#!">
-									View on Trello
-								</a>
-							</div>
-
 						</div>
 
 					</div>
 
 					<!-- Action card -->
-					<div class="card">
+					<div class="card rounded-3">
 
 						<div class="card-header border-0 pb-0">
 
@@ -611,22 +591,16 @@
 
 						<div class="card-body">
 
-							<p class="mb-2">
+							<p class="mb-0">
 								<span class="text-dark fw-bold">nubela</span> moved this card from Doing to Done <span class="">3 hours ago.</span>
 							</p>
 
-							<div class="text-end">
-								<a class="fw-bold text-primary" href="#!">
-									View on Trello
-								</a>
-							</div>
-
 						</div>
 
 					</div>
 
 					<!-- Action card -->
-					<div class="card">
+					<div class="card rounded-3">
 
 						<div class="card-header border-0 pb-0">
 
@@ -663,22 +637,16 @@
 
 						<div class="card-body">
 
-							<p class="mb-2">
+							<p class="mb-0">
 								<span class="text-dark fw-bold">Aji Wandi</span> moved this card from Todo to Doing <span class="">3 hours ago.</span>
 							</p>
-
-							<div class="text-end">
-								<a class="fw-bold text-primary" href="#!">
-									View on Trello
-								</a>
-							</div>
 
 						</div>
 
 					</div>
 
 					<!-- Deletion card -->
-					<div class="card">
+					<div class="card rounded-3">
 
 						<div class="card-header border-0 pb-0">
 
@@ -715,22 +683,16 @@
 
 						<div class="card-body">
 
-							<p class="mb-2">
+							<p class="mb-0">
 								<span class="text-dark fw-bold">nubela</span> archived this card <span>3 hours ago.</span>
 							</p>
-
-							<div class="text-end">
-								<a class="fw-bold text-primary" href="#!">
-									View on Trello
-								</a>
-							</div>
 
 						</div>
 
 					</div>
 
 					<!-- Deletion card -->
-					<div class="card">
+					<div class="card rounded-3">
 
 						<div class="card-header border-0 pb-0">
 
@@ -767,15 +729,9 @@
 
 						<div class="card-body">
 
-							<p class="mb-2">
+							<p class="mb-0">
 								<span class="text-dark fw-bold">nubela</span> deleted this card <span>5 hours ago.</span>
 							</p>
-
-							<div class="text-end">
-								<a class="fw-bold text-primary" href="#!">
-									View on Trello
-								</a>
-							</div>
 
 						</div>
 
